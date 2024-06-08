@@ -57,7 +57,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-ebookstore">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.jsp">
         <i class="fas fa-book" style="color: #28a745;"></i> eBook Store
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavEbook" aria-controls="navbarNavEbook" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,10 +70,10 @@
         </form>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                <a class="nav-link" href="login.jsp"><i class="fas fa-sign-in-alt"></i> Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-user-plus"></i> Register</a>
+                <a class="nav-link" href="register.jsp"><i class="fas fa-user-plus"></i> Register</a>
             </li>
         </ul>
     </div>
@@ -88,16 +88,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                <a class="nav-link" href="index.jsp"><i class="fas fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-book-open"></i> Recent Books</a>
+                <a class="nav-link" href="#recent-books"><i class="fas fa-book-open"></i> Recent Books</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-book-medical"></i> New Books</a>
+                <a class="nav-link" href="#new-books"><i class="fas fa-book-medical"></i> New Books</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-book-reader"></i> Old Books</a>
+                <a class="nav-link" href="#old-books"><i class="fas fa-book-reader"></i> Old Books</a>
             </li>
         </ul>
         <ul class="navbar-nav">
